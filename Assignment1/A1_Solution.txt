@@ -1,0 +1,43 @@
+Assignment 1 Solutions
+
+Q.1 <!DOCTYPE html> is it a tag of html? If not, what is it and why do we use it?
+Ans. No! <!DOCTYPE html> is not a HTML tag, it is HTML document type declaration. The DOCTYPE declaration is an instruction to the web browser about what version of HTML we are using in the web page.
+
+Q.2 Explain Semantic tags in html? And why do we need it?
+Ans. Semantic tags are those tags which clearly defines its meaning to browser and developer. For eg. <header>, <article>, <footer>. 
+Advantages of semantic elements are – 
+ - The pages made with semantic elements are much easier to read.
+ - Code written with help of semantic elements is clearer.
+ - Site is easily accessible for screen readers.
+
+Q.3 Differentiate between HTML Tags and Elements?
+Ans. HTML tags are the building blocks of the HTML page. They are generally written inside <>. HTML Elements are the components which consists of start tag content and end tag.
+
+Q.4 Build Your Resume using HTML only.
+Ans. https://github.com/Manash2712/HTML-Assessment-Resume 
+
+Q.5 Write HTML code so that it looks like the below image.
+Ans. https://github.com/Manash2712/HTML-Assessment-Q5 
+
+Q.6 What are some of the advantages of HTML5 over its previous versions?
+Ans. Some advantages of HTML5 over previous versions are:-  
+- Multimedia support                                                                                                                                                                          - Semantic tags                                                          
+- It is capable of handling inaccurate syntax                                                                                                           
+- DOCTYPE declaration is quite simple and easy to understand
+
+Q.7 Create a simple Music player using html only.
+Ans. https://github.com/Manash2712/HTML-Assessment-Music-Player 
+
+Q.8 What is the difference between <figure> tag and <img> tag?
+Ans. <figure> tag is container tag which is used to semantically organize the content of images, videos, audios. 
+<figcaption> can be used along with figure to give caption.                                                                                                                                   <img> tag is used to add an image to the HTML page.
+
+Q.9 What’s the difference between html tag and attribute and give example of some global attributes?
+Ans. HTML tags are starting and ending parts of HTML element. HTML attributes are used to describe the characteristics of HTML element.
+
+Q.10 Write Html code so that it looks like the below image.
+Ans. https://github.com/Manash2712/HTML-Assessment-Tables/blob/main/index.html 
+
+
+
+
