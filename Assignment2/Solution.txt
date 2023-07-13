@@ -1,0 +1,52 @@
+Assignment 2 Solutions
+
+Q.1 What is box model in CSS?
+Ans. CSS box model is a box binding HTML element that includes padding, border, margin and actual content. It is generally used to create the design and layout of web pages.                 
+Properties of Box Model: -
+Content: - It consists of content area in which actual content resides.
+Padding: - It is the space between content and border of the element.
+Border: - It surrounds the content area and padding.
+Margin: - It is the area between the borders of two element. It does not possess its own background colour. 
+                      
+Q.2 What are the different types of selectors in CSS and what are the advantages of them?
+Ans. CSS selector selects the element which we want to style. Different types of CSS selectors are: -
+1. Simple Selectors: - These select based on name of tag or attributes like class or id.
+2. Combinator Selectors: - These are group of selectors used in order to target a particular element.
+3. Pseudo-classes Selector: - These are used to select element based on a particular state like :hover.
+4. Pseudo-elements Selector: - These selectors are used to target a certain part of the element rather than the whole element like ::first-line
+5. Attribute Selector: - This selector can select elements based on the certain attribute.
+
+Q.3 What is VW/VH?
+Ans. Vh stands for viewport height and vw stands for viewport width. Both these units work like % unit. Both these specifies for the visible screen. For example 10 vw is equivalent to occupying 10% of entire screen width, same goes for vh but instead of width it is equivalent to visible screen height. 
+       
+Q.4 What is difference between Inline, Inline Block and block ?
+Ans. Inline: - when an element is styled as inline then it will not start on a new line and will only take up as much width as the content it contains and will not cause a line break after it.
+Inline Block: - These are same as inline elements the only difference is that it can take specified width and height.
+Block: - These elements begin on new line and they take full width available irrespective of their sufficiency. They don’t have any other element next to them.
+
+Q.5 How is Border-box different from Content Box? 
+Ans. Content-Box: - In content box the dimension of elements only include height and width, border and padding takes their own space outside the content.
+For eg. We have given a div oh width of 200px and then added 15px padding on all sides and given border of 10px then total box width of this div will become 250px.
+Border-box: - In border box along with height and width border and padding are also included in the total height and width of the content.
+For eg. Taking the previous example of div of width 200px border 10px and padding 15px this will render a box of total width 200px .
+
+Q.6 What’s z-index and How does it function?
+Ans. z-index defines the order in which the HTML elements will be placed on z-index i.e it will define the overlapping structure of HTML content. The content of element with higher z-index will come on top of the content of element whose z-index is smaller.
+
+Q.7 What Is Grid and Flex and differences between them?
+Ans. Grid is a type of layout which offers layout having rows and columns i.e. it offers two dimensional layouts. It makes designing of web page easy as it eliminates the usage of positioning. It is layout first.
+Flex is also a layout model but it is one dimensional we can either position the elements horizontally (row) or vertically (column). It is content first.
+
+Q.8 Difference between absolute and relative and sticky and fixed position explain with example.
+Ans. Absolute: - An element positioned as absolute will adjust its position with respect to its parent, if no parent is there then it uses body as the parent.
+Relative: - In this type of positioning element will adjust itself relative to its original position based on the values of top, right, bottom, or left.
+Sticky: - In this positioning, element will behave like relatively until certain position is achieved and after achieving that position it will stick to the screen.
+Fixed: - In this positioning the element will be fixed to the certain position specified by top, bottom, left or right. It will not change its position even if the page is scrolled.
+https://manash.hashnode.dev/different-css-position-properties 
+
+Q.9 Build Periodic Table as shown in the below image.
+Ans. https://github.com/Manash2712/CSS-Assessment-Periodic-Table 
+
+Q.10 Build Responsive Layout both desktop and mobile and Tablet, see below image for reference ?
+Ans. https://github.com/Manash2712/CSS-Assessment-Responsive-Design 
+                                       
